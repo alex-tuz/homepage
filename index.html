@@ -5,52 +5,132 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Résumé</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="container">
-    <h1>Oleksandr Tuz</h1>
-    <img src="assets/avatar.png" alt="avatar">
-    <h2>1C Developer</h2>
+    <!-- Left -->
+    <div class="left-side">
+      <div class="profileText">
+        <div class="imgBx">
+          <img src="assets/avatar.png" alt="">
+        </div>
+        <h2>Oleksandr Tuz<br><span>1C Developer</span></h2>
+      </div>
 
-    <div class="contactInfo"></div>
+      <!-- Contact info -->
+      <div class="contactInfo">
+        <h3 class="title">Contact Info</h3>
+        <ul>
+          <li>
+            <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+            <a href="tel:+12042298691"><span class="text">+1 204 229 8691</span></a>
+          </li>
+          <li>
+            <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+            <a href="mailto:a.tuz86@gmail.com"><span class="text">a.tuz86@gmail.com</span></a>
+          </li>
+          <li>
+            <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+            <a href="http://www.linkedin.com/in/otuz86" target="_blank"><span class="text">Oleksandr Tuz</span></a>
+          </li>
+          <li>
+            <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+            <a href="http://www.google.com/maps/place/Winnipeg" target="_blank"><span class="text">Winnipeg,
+                Canada</span></a>
+          </li>
+        </ul>
+      </div>
 
-    <!-- Education info -->
-    <div class="contactInfo education"></div>
+      <!-- Education info -->
+      <div class="contactInfo education">
+        <h3 class="title">Education</h3>
+        <ul>
+          <li>
+            <h5>2004-2009</h5>
+            <h4>Master degree in Radio Physics</h4>
+            <h4>Taras Shevchenko National University, Kyiv, Ukraine</h4>
+          </li>
 
-    <!-- Language info -->
-    <div class="contactInfo language"></div>
+        </ul>
+      </div>
 
-    <!-- Profile -->
-    <p>Hello.<br>
-      My name is Oleksandr. I have been involved in 1C programming for the past 13 years and currently work as a senior
-      programmer in a pharmaceutical company. Lately, I have been putting in some effort to learn web
-      development.<br><br>
-      In addition to my experience in 1C programming and my role as a senior programmer in a pharmaceutical company, I
-      have developed expertise in various areas of software development. I am proficient in database management, system
-      integration, and automation processes. My skills also extend to analyzing business requirements, designing
-      software solutions, and conducting thorough testing and debugging.</p>
-      
-    <!-- Profile -->
-    <div class="about">
-      <h4>Lead 1C Developer</h4>
-      <p>Project for the automation of management and accounting processes for a group of companies.</p>
+      <!-- Education info -->
+      <div class="contactInfo language">
+        <h3 class="title">Languages</h3>
+        <ul>
+          <li>
+            <span class="text">English</span>
+            <span class="percent">
+              <div style="width: 40%"></div>
+            </span>
+          </li>
+          <li>
+            <span class="text">Ukrainian</span>
+            <span class="percent">
+              <div style="width: 90%"></div>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+
     </div>
 
-    <!-- Skills -->
-    <div class="about skills">
-      <ul>
-        <li>Proficiency in the peculiarities of the 1C programming language.</li>
-        <li>Knowledge of 1C query language (SQL dialect).</li>
-        <li>Understanding of the fundamentals of accounting and tax accounting.</li>
-        <li>Understanding of the fundamentals of accounting and tax accounting.</li>
-        <li>Ability to present oneself professionally, articulate thoughts effectively, and exhibit appropriate humor.</li>
-      </ul>
+    <!-- Right -->
+    <div class="right-side">
+      <main>
+        <!-- Profile -->
+        <div class="about">
+          <h2 class="title2">Profile</h2>
+          <p>Hello.<br>
+            My name is Oleksandr. I have been involved in 1C programming for the past 15 years and currently work as a
+            senior programmer in a pharmaceutical company. Lately, I have been putting in some effort to learn web
+            development.<br><br>
+            In addition to my experience in 1C programming and my role as a senior programmer in a pharmaceutical
+            company,
+            I have developed expertise in various areas of software development. I am proficient in database management,
+            system integration, and automation processes. My skills also extend to analyzing business requirements,
+            designing software solutions, and conducting thorough testing and debugging.</p>
+        </div>
+
+        <!-- Experience -->
+        <div class="about">
+          <h2 class="title2">Experience</h2>
+          <div class="box">
+            <div class="year_company">
+              <h5>2015 - Present</h5>
+              <h5>VsihVilikuem Farm</h5>
+            </div>
+            <div class="text">
+              <h4>Lead 1C Developer</h4>
+              <p>Project for the automation of management and accounting processes for a group of companies.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="about skills">
+          <h2 class="title2">Skills</h2>
+          <div class="box">
+            <ul>
+              <li>Proficiency in the peculiarities of the 1C programming language.</li>
+              <li>Knowledge of 1C query language (SQL dialect).</li>
+              <li>Understanding of the fundamentals of accounting and tax accounting.</li>
+              <li>Ability to present oneself professionally, articulate thoughts effectively, and exhibit appropriate
+                humor.</li>
+            </ul>
+          </div>
+        </div>
+      </main>
     </div>
-    
-    </div>
+  </div>
 </body>
 
 </html>
